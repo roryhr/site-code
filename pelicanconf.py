@@ -4,36 +4,48 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Rory Hartong-Redden'
 SITENAME = "Rory's Corner"
-SITEURL = ''
 
-PATH = 'content'
-STATIC_PATHS = ['images']  # Path to static image files
+SITEURL = '/blog'
+OUTPUT_PATH = 'output/blog'
+# PAGE_URL = '../{slug}.html'
+# PAGE_SAVE_AS = '../{slug}.html'
+DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [('Blog', '/blog')]
 
-TIMEZONE = 'America/Tijuana'
+# PATH = 'content'
+# ARTICLE_PATHS = ['articles',]
+# PAGE_PATHS = ['pages',]
+PAGE_ORDER_BY = 'attribute'
+
+TIMEZONE = 'America/Vancouver'
 
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Keras', 'http://blog.keras.io/'),
-         ('Kaggle', 'http://blog.kaggle.com/'),
+         ('No Free Hunch (Kaggle)', 'http://blog.kaggle.com/'),
          ('EFAVDB', 'http://efavdb.com/'),
          ('Google', 'http://googleresearch.blogspot.com/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/roryhr'),
           ('LinkedIn', 'https://www.linkedin.com/in/rory-hartong-redden-18334356'),
-	  ('Twitter', 'https://twitter.com/rory_h_r'),)
+	      ('Twitter', 'https://twitter.com/rory_h_r'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# Don't bother generating an Author page - we've only got one author
+# AUTHOR_SAVE_AS = False
+
+
+# Turn off Feed generation
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None

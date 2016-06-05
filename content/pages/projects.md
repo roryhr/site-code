@@ -1,8 +1,5 @@
----
-layout: page
 title: Projects
-permalink: /projects/
----
+attribute: 5
 
 As I write more posts about what I'm working on (or finished, let's say) I'll
 link to them here. I'm active on Kaggle. 

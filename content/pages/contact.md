@@ -1,9 +1,5 @@
----
-layout: page
-title: Contact
-permalink: /contact/
----
-
+Title: Contact
+attribute: 9
 
 I can only aspire to Knuth-levels of inaccessibility;
 the easiest way to reach me is via email.   

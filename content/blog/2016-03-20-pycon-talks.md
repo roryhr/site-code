@@ -1,5 +1,5 @@
-Title:  "PyCon Talks"
-date:   2016-03-20 19:00:00 -0800
+Title: PyCon Talks
+Date: 2016-03-20
 Category: open source, pycon, python
 
 There are tons of great PyCon talks on YouTube and I haven't even scratched the surface
