@@ -5,18 +5,24 @@ from __future__ import unicode_literals
 AUTHOR = 'Rory Hartong-Redden'
 SITENAME = "Rory's Corner"
 
-SITEURL = '/blog'
-OUTPUT_PATH = 'output/blog'
+SITEURL = ''
+# OUTPUT_PATH = 'output/blog'
+
 # PAGE_URL = '../{slug}.html'
 # PAGE_SAVE_AS = '../{slug}.html'
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [('Blog', '/blog')]
+MENUITEMS = [('Home', '/'),
+             ('Blog', '/archives'),
+             ('About', '/pages/about'),
+             ('Projects', '/pages/projects'),
+             ('Contact', '/pages/contact')]
 
-# PATH = 'content'
-# ARTICLE_PATHS = ['articles',]
-# PAGE_PATHS = ['pages',]
-PAGE_ORDER_BY = 'attribute'
+PATH = 'content'
+ARTICLE_PATHS = ['blog',]
+PAGE_PATHS = ['pages',]
+STATIC_PATHS = ['images',]
+# PAGE_ORDER_BY = 'attribute'
 
 TIMEZONE = 'America/Vancouver'
 
@@ -40,7 +46,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Don't bother generating an Author page - we've only got one author
-# AUTHOR_SAVE_AS = False
+AUTHOR_SAVE_AS = False
 
 
 # Turn off Feed generation

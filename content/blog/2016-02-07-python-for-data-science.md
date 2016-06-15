@@ -1,6 +1,6 @@
-Title:  "Python for (Data) Science"
-Date:   2016-01-24 20:49:00 -0800
-Category: data science
+title:  Python for (Data) Science
+date:   2016-01-24
+category: data science
 
 [Note: This post started out as a letter to a friend who's looking to get into Data Science.
 It goes without saying it's all my opinion.]
