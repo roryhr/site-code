@@ -1,14 +1,11 @@
-title: Home
-url: index.html
+title:
 save_as: index.html
-attribute: 1
 
 Hi,
 
-I'm a machine learning data scientist and mechanical engineer/physicist by training.
+I'm a mechanical engineer/physicist by training who does things with computers now.
 
-
-I have a blog to keep you entertained, some projects to check out, and a bit more about myself. Feel free to shoot me a tweet or email.
+This small website has a few articles, links to some projects, and a bit more about myself.
 
 Cheers,
 

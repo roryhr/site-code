@@ -1,7 +1,12 @@
 title: Projects
 
 As I write more posts about what I'm working on (or finished, let's say) I'll
-link to them here. I'm active on Kaggle. 
+link to them here. I'm active on Kaggle.
+
+# Keras
+
+[Keras](http://keras.io/) is an open-source high-level interface to TensorFlow and Theano which takes the pain out of building deep learning models.
+I hang out on the Keras Slack channel and contribute what I can to the [code](https://github.com/fchollet/keras).
 
 # tune2vec
 
@@ -11,7 +16,7 @@ I'm building an autoencoder that will find an embedding for musical tracks for a
 # Kaggle
 
 * [Statefarm Distracted Driver Detection](https://www.kaggle.com/c/state-farm-distracted-driver-detection),  [code](https://github.com/roryhr/distracted-drivers-keras).
-A reinforcement learning-driven hard attention model is ideal. We'll see if I can get it going in time! 
+A reinforcement learning-driven hard attention model is ideal. We'll see if I can get it going in time!
 
 * [Yelp Restaurant Photo Classification](https://www.kaggle.com/c/yelp-restaurant-photo-classification), [code](https://github.com/roryhr/yelp_kaggle)
 
@@ -28,5 +33,5 @@ A reinforcement learning-driven hard attention model is ideal. We'll see if I ca
   neat graphics in the [notebook](http://nbviewer.jupyter.org/github/roryhr/taxi-trajectories/blob/master/taxi-data-notebook.ipynb)
   on my Github.
 
-* TODO: An A/B analysis. 
-And if I'm feeling motivated, a comparison of the fancy RL approach to that of classical statistics a la [Google](https://support.google.com/analytics/answer/2844870?hl=en&ref_topic=2844866&rd=1). 
+* TODO: An A/B analysis.
+And if I'm feeling motivated, a comparison of the fancy RL approach to that of classical statistics a la [Google](https://support.google.com/analytics/answer/2844870?hl=en&ref_topic=2844866&rd=1).

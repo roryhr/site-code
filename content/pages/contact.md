@@ -1,9 +1,10 @@
 Title: Contact
-attribute: 9
 
 I can only aspire to Knuth-levels of inaccessibility;
-the easiest way to reach me is via email.   
+you can reach me via email:
 
-[LinkedIn](https://www.linkedin.com/in/rory-hartong-redden-18334356)
+```python
+'roryhr' + '@' + 'gmail.com'
+```
 
-[Kaggle](https://www.kaggle.com/roryhr)
+I'm also active on Twitter where I post jokes and click on links.
