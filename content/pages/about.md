@@ -1,14 +1,13 @@
 Title: About
 
-I'm a physicist proficient in the ways of data analysis, python, machine learning, 
+I'm a physicist proficient in the ways of data analysis, python, machine learning,
 and computer vision.
-
-My background is in physics and mechanical engineering:
-I can model physical problems,
-write code to solve them, and build stuff in a machine shop.
-I have the tendency to learn more than I need to.
+I work as a Research Analyst at Allstate in Menlo Park.
 
 # Long Bio
+
+I'm a Research Analyst at Allstate where I model accidents on the road to help
+our customers drive safer.
 
 This winter I was a machine learning fellow at [Startup.ML](Startup.ML) working on
 machine learning in finance.

@@ -5,7 +5,8 @@ Hi,
 
 I'm a mechanical engineer/physicist by training who does things with computers now.
 
-This small website has a few articles, links to some projects, and a bit more about myself.
+This small website has a few articles, links to some projects on Github,
+and a bit more about myself.
 
 Cheers,
 
