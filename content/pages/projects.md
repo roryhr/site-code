@@ -1,16 +1,19 @@
 title: Projects
 
 As I write more posts about what I'm working on (or finished, let's say) I'll
-link to them here. I'm active on Kaggle.
+link to them here.
 
-# Keras
+# Self-driving RC car
 
-[Keras](http://keras.io/) is an open-source high-level interface to TensorFlow and Theano which takes the pain out of building deep learning models.
-I hang out on the Keras Slack channel and contribute what I can to the [code](https://github.com/fchollet/keras).
+I want to build a self-driving car and compete here [DIY Robocars](https://diyrobocars.com/). How hard can it be? haha!
+
+# Research gradient updates
+
+There's been some interesting research into "shattered gradients" which motivates the question, "Can we learn anything by studying the gradient updates in deep neural networks?"
 
 # tune2vec
 
-I'm building an autoencoder that will find an embedding for musical tracks for a music recommendation engine.
+An idea for an autoencoder that will find an embedding for musical tracks for a music recommendation engine.
 [tune2vec](https://github.com/roryhr/tune2vec)
 
 # Kaggle
@@ -33,5 +36,16 @@ A reinforcement learning-driven hard attention model is ideal. We'll see if I ca
   neat graphics in the [notebook](http://nbviewer.jupyter.org/github/roryhr/taxi-trajectories/blob/master/taxi-data-notebook.ipynb)
   on my Github.
 
-* TODO: An A/B analysis.
-And if I'm feeling motivated, a comparison of the fancy RL approach to that of classical statistics a la [Google](https://support.google.com/analytics/answer/2844870?hl=en&ref_topic=2844866&rd=1).
+
+
+# What am I reading?
+
+Unix and SQL are timeless and a great productivity investment. Lately I'm working with larger amounts of data where it's more comfortable in the Hadoop ecosystem.
+
+* The Unix Programming Environment
+
+* Structure and Interpretation of Computer Programs
+
+* Hadoop: The Definitive Guide: Storage and Analysis at Internet Scale 
+
+* Database Systems: The Complete Book

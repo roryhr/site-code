@@ -1,28 +1,20 @@
 Title: About
 
-I'm a physicist proficient in the ways of data analysis, python, machine learning,
-and computer vision.
-I work as a Research Analyst at Allstate in Menlo Park.
+Rory Hartong-Redden is a research data scientist working in Menlo Park at Allstate.
 
 # Long Bio
 
-I'm a Research Analyst at Allstate where I model accidents on the road to help
-our customers drive safer.
+Rory Hartong-Redden is a Researcher at Allstate working on an autonomous vehicle research project with Stanford.
+The project was described in a recent [press release](https://www.allstatenewsroom.com/news/allstate-announces-autonomous-vehicle-research-agreement/) and is off to a great start.
 
-This winter I was a machine learning fellow at [Startup.ML](Startup.ML) working on
-machine learning in finance.
-I built a data pipeline to ingest market data and set up a platform to test trading algorithms.
+The winter of 2015 he was a machine learning fellow at [Startup.ML](Startup.ML).
+There Rory worked in an agile team, built a data pipeline to ingest market data, and set up a platform to test trading algorithms.
 
-For my master’s thesis I designed a fluid dynamics experiment that measured
-the state of the fluid using a novel computer vision system.
-Similarly, my bachelor’s work pioneered a measurement technique that
-collected data from splashes from two high-speed cameras.
-Lacking a theory to draw conclusions from my data, I developed a new theory for my analysis.
+His master’s work built a new fluid dynamics experiment that measured fluid motion using a novel computer vision system.
+Similarly, Rory's bachelor’s work pioneered a measurement technique that collected data from splashes from two high-speed cameras.
+Lacking a theory to draw conclusions from the data he developed a new theory of patterns on circular domains.
 
-I'm currently fascinated by deep convolutional networks, Kaggle, and
-Reinforcement Learning. Applications for RL include autonomous driving,
-autonomous trading, autonomous...you name it!
-
+He can be found on running paths around Stanford and at Meetup groups in the Bay Area discussing the latest advances in AI and Python.
 
 [Resume](https://github.com/roryhr/resume/raw/master/rhartong_redden_resume.pdf)
 

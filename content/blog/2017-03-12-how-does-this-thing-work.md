@@ -2,16 +2,18 @@ Title:  How does this thing work?
 Date:   2017-03-12
 Category: python, documentation
 
-# Abstract
+# Introduction
 
-How does this website work?
-
-# Start
-
-After 9 months I'm returning to this website. The first question I had was "How does this thing work?" 
+After 9 months I'm returning to this website. My first question was "How does this thing work?" 
 Of course I didn't document it and I don't remember. Lesson learned. 
 
-# How does this website work? 
+**The things we take for granted are the most important to document.** 
+
+
+This post is for myself and anyone interested in using Pelican to make a Github-hosted website.
+
+
+# How does this thing work? 
 
 ## High level overview
 
@@ -59,8 +61,60 @@ Shell showing the output folder is a Git repo pointing to `roryhr/roryhr.github.
 	origin	https://github.com/roryhr/roryhr.github.io (push)
 	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code/output$ 
 
-Run the development server manually (there's also a `.sh` script but I don't use it)
+Run the development server manually and navigate to `http://localhost:8000`
+
 	:::bash
 	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code$ cd output/
 	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code/output$ python -m pelican.server
+
+Alternatively, take advantage of the shell script that automagically recompiles the site as you edit it (very cool!)
+
+	:::bash
+	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code$ ./develop_server.sh start
+
+# Repository contents
+
+
+	:::bash
+	site-code/
+		content/
+			blog/
+				blog-posts-go-here.md
+			images/
+				images-go-here.jpg
+				and-other-static-files.html
+			pages/
+				about.md
+				contact.md
+				index.md
+				projects.md
+		output/
+			index.html 
+			lots of other html files
+		render_math/
+		develop_server.sh  
+		LICENSE 
+		pelicanconf.py  
+		README.md
+
+## Wiring the site up
+
+I made a custom landing page with `pages/index.md` which becomes `index.html`
+
+	:::python
+	title:
+	save_as: index.html
+
+	Hi,
+
+	I'm a mechanical engineer/physicist by training who does things with computers now.
+
+In `site-code/pelicanconf.py` I wire up the buttons so they're labeled and go to the appropriate place (this took some fiddling).
+
+	:::python
+	MENUITEMS = [('Home', '/'),
+	             ('Articles', '/archives'),
+	             ('About', '/pages/about'),
+	             ('Projects', '/pages/projects'),
+	             ('Contact', '/pages/contact')]
 
