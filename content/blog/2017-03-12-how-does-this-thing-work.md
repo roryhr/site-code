@@ -4,22 +4,21 @@ Category: python, documentation
 
 # Introduction
 
-After 9 months I'm returning to this website. My first question was "How does this thing work?" 
-Of course I didn't document it and I don't remember. Lesson learned. 
+After 9 months I'm returning to this website.
+My first question was "How does this thing work?"
+Of course I didn't document it and I don't remember. Lesson learned.
 
-**The things we take for granted are the most important to document.** 
-
+**The things we take for granted are the most important to document.**
 
 This post is for myself and anyone interested in using Pelican to make a Github-hosted website.
 
-
-# How does this thing work? 
+# How does this thing work?
 
 ## High level overview
 
-This site is hosted for free by [Github](https://github.com/). Thanks Github! The html "code" is at [roryhr/roryhr.github.io](https://github.com/roryhr/roryhr.github.io).
+This site is hosted for free by [Github](https://github.com/). Thanks Github! The html "code" is a special repository [roryhr/roryhr.github.io](https://github.com/roryhr/roryhr.github.io).
 
-Great. I used a static site generator called Pelican that generates a website from a series markdown text files in a particular directory structure (more on that in a bit).
+Great. I used a static site generator called Pelican that generates html, which comprises this website, from a series markdown text files in a particular directory structure (more on that in a bit).
 These files are in a separate repository at
 [roryhr/site-code](https://github.com/roryhr/site-code).
 
@@ -31,8 +30,7 @@ Generate the website
 	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code$ pelican content
 	WARNING: empty slug for /home/rory/Projects/site-code/content/pages/index.md. You can fix this by adding a title or a slug to your content
 	Done: Processed 7 articles, 0 drafts, 4 pages and 0 hidden pages in 0.23 seconds.
-	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code$ 
-
+	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code$
 
 
 Shell showing the output folder is a Git repo pointing to `roryhr/roryhr.github.io`
@@ -59,7 +57,7 @@ Shell showing the output folder is a Git repo pointing to `roryhr/roryhr.github.
 	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code/output$ git remote -v
 	origin	https://github.com/roryhr/roryhr.github.io (fetch)
 	origin	https://github.com/roryhr/roryhr.github.io (push)
-	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code/output$ 
+	((blog)) rory@rory-Satellite-S75-B:~/Projects/site-code/output$
 
 Run the development server manually and navigate to `http://localhost:8000`
 
@@ -89,11 +87,11 @@ Alternatively, take advantage of the shell script that automagically recompiles 
 				index.md
 				projects.md
 		output/
-			index.html 
+			index.html
 			lots of other html files
 		render_math/
 		develop_server.sh  
-		LICENSE 
+		LICENSE
 		pelicanconf.py  
 		README.md
 
@@ -105,9 +103,9 @@ I made a custom landing page with `pages/index.md` which becomes `index.html`
 	title:
 	save_as: index.html
 
-	Hi,
+	Thanks for stopping by my little website.
 
-	I'm a mechanical engineer/physicist by training who does things with computers now.
+	-- Rory Hartong-Redden
 
 In `site-code/pelicanconf.py` I wire up the buttons so they're labeled and go to the appropriate place (this took some fiddling).
 
@@ -117,4 +115,3 @@ In `site-code/pelicanconf.py` I wire up the buttons so they're labeled and go to
 	             ('About', '/pages/about'),
 	             ('Projects', '/pages/projects'),
 	             ('Contact', '/pages/contact')]
-
